@@ -43,5 +43,17 @@ By using `prophet` with specifying well-known holiday as 'outlier' data, we get 
 
 <img src="prophet.png" width="500" height="250">
 
+This gives us better result compared to models in the previous section. 
+But, we can make it even better by implementing algorithm from `AnomalyDetection` to find 'outlier' data instead of inputting it manually.
 
+### Combination of `AnomalyDetection` and `prophet`
+
+Implementing the algorithm from `AnomalyDetection`, we get the following outliers. 
+
+<img src="anomaly.png" width="500" height="250">
+
+Then, by specifying those data points as 'outlier' points in `prophet`, we get a better result with significantly narrower prediction interval (**right**) compared to the result only from `prophet` (**left**).
+
+<img src="prophet.png" width="500" height="250">
+<img src="combination.png" width="500" height="250">
 
