@@ -21,7 +21,27 @@ First, we extract all anomaly data points by using the algorithm in `AnomalyDete
 Then, we plug every anomaly data points that we got as data points that will be 'treated' by the algorithm in `prophet`, creating a significantly 
 better result compared to the usual ARIMA, Holt-Winters, and ETS models.
 
-## Some Results in Visualization
+## Some Results of Common Time-Series Models 
 
 ### ARIMA (Auto-Regressive Integrated Moving-Average) Model
+
+<img src="ARIMA.png" width="500" height="250">
+
+### ETS Model
+
+<img src="ETS.png" width="500" height="250">
+
+### Holt-Winters Model
+
+<img src="Holt-Winters.png" width="500" height="250">
+
+## Our Result
+
+### Using `prophet` directly
+
+By using `prophet` with specifying well-known holiday as 'outlier' data, we get the following result
+
+<img src="prophet.png" width="500" height="250">
+
+
 
