@@ -54,6 +54,6 @@ Implementing the algorithm from `AnomalyDetection`, we get the following outlier
 
 Then, by specifying those data points as 'outlier' points in `prophet`, we get a better result with significantly narrower prediction interval (**right**) compared to the result only from `prophet` (**left**).
 
-<img src="prophet.png" width="500" height="250">
-<img src="combination.png" width="500" height="250">
+<img src="prophet.png" width="400" height="250"> <img src="prophet combination.png" width="400" height="250">
 
+For the detail, check [here](https://github.com/Steven-Surya/anomaly-prophet/blob/main/prophet_AnomalyDetection.html). 
