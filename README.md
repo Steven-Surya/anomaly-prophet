@@ -55,4 +55,4 @@ Then, by specifying those data points as 'outlier' points in `prophet`, we get a
 
 <img src="prophet.png" width="400" height="250"> <img src="prophet combination.png" width="400" height="250">
 
-For the detail, check [here](prophet&AnomalyDetection.Rmd). 
+For the detail, check the Rmd file [here](prophet&AnomalyDetection.Rmd). 
