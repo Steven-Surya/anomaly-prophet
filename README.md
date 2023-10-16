@@ -1,6 +1,6 @@
 # Improving Time Series Forecasting
 
-This was a collaboration project with [Anggia](https://www.linkedin.com/in/anggia97/) as a part of our internship project 
+This was a collaboration project with [Anggia](https://www.linkedin.com/in/anggia97/)  
 at [Algoritma Data Science School](https://algorit.ma).
 This project introduce `AnomalyDetection` package from Twitter as our primary tool for detecting anomaly and `prophet` package from Facebook
 for time-series forecasting. The dataset is a food and beverage 3-months transaction data (~800 MB).  
